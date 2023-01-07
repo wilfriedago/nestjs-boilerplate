@@ -1402,13 +1402,6 @@
   resolved "https://registry.yarnpkg.com/@xtuc/long/-/long-4.2.2.tgz#d291c6a4e97989b5c61d9acf396ae4fe133a718d"
   integrity sha512-NuHqBY1PB/D8xU6s/thBgOAiAP7HOYDQ32+BFZILJ8ivkUkAHQnWfn6WhL79Owj1qmUnoN/YPhktdIoucipkAQ==
 
-abort-controller@^3.0.0:
-  version "3.0.0"
-  resolved "https://registry.yarnpkg.com/abort-controller/-/abort-controller-3.0.0.tgz#eaf54d53b62bae4138e809ca225c8439a6efb392"
-  integrity sha512-h8lQ8tacZYnR3vNQTgibj+tODHI5/+l06Au2Pcriv/Gmet0eaj4TwWH41sO9wnHDiQsEj19q0drzdWdeAHtweg==
-  dependencies:
-    event-target-shim "^5.0.0"
-
 accept-language-parser@^1.5.0:
   version "1.5.0"
   resolved "https://registry.yarnpkg.com/accept-language-parser/-/accept-language-parser-1.5.0.tgz#8877c54040a8dcb59e0a07d9c1fde42298334791"
@@ -2950,11 +2943,6 @@ etag@~1.8.1:
   resolved "https://registry.yarnpkg.com/etag/-/etag-1.8.1.tgz#41ae2eeb65efa62268aebfea83ac7d79299b0887"
   integrity sha512-aIL5Fx7mawVa300al2BnEE4iNvo1qETxLrPI/o05L7z6go7fCw1J6EQmbK4FmJ2AS7kgVF/KEZWufBfdClMcPg==
 
-event-target-shim@^5.0.0:
-  version "5.0.1"
-  resolved "https://registry.yarnpkg.com/event-target-shim/-/event-target-shim-5.0.1.tgz#5d4d3ebdf9583d63a5333ce2deb7480ab2b05789"
-  integrity sha512-i/2XbnSz/uxRCU6+NdVJgKWDTM427+MqYbkQzD321DuCQJUqOuJKIA0IM2+W2xtYHdKOmZ4dR6fExsd4SXL+WQ==
-
 events@1.1.1:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/events/-/events-1.1.1.tgz#9ebdb7635ad099c70dcc4c2a1f5004288e8bd924"
@@ -3377,21 +3365,20 @@ functions-have-names@^1.2.2:
   resolved "https://registry.yarnpkg.com/functions-have-names/-/functions-have-names-1.2.3.tgz#0404fe4ee2ba2f607f0e0ec3c80bae994133b834"
   integrity sha512-xckBUXyTIqT97tq2x2AMb+g163b5JFysYk0x4qxNFwbfQkmNZoiRHb6sPzI9/QV33WeuvVYBUIiD4NzNIyqaRQ==
 
-gaxios@^4.0.0:
-  version "4.3.3"
-  resolved "https://registry.yarnpkg.com/gaxios/-/gaxios-4.3.3.tgz#d44bdefe52d34b6435cc41214fdb160b64abfc22"
-  integrity sha512-gSaYYIO1Y3wUtdfHmjDUZ8LWaxJQpiavzbF5Kq53akSzvmVg0RfyOcFDbO1KJ/KCGRFz2qG+lS81F0nkr7cRJA==
+gaxios@^5.0.0:
+  version "5.0.1"
+  resolved "https://registry.yarnpkg.com/gaxios/-/gaxios-5.0.1.tgz#50fc76a2d04bc1700ed8c3ff1561e52255dfc6e0"
+  integrity sha512-keK47BGKHyyOVQxgcUaSaFvr3ehZYAlvhvpHXy0YB2itzZef+GqZR8TBsfVRWghdwlKrYsn+8L8i3eblF7Oviw==
   dependencies:
-    abort-controller "^3.0.0"
     extend "^3.0.2"
     https-proxy-agent "^5.0.0"
     is-stream "^2.0.0"
     node-fetch "^2.6.7"
 
-gaxios@^5.0.0:
-  version "5.0.1"
-  resolved "https://registry.yarnpkg.com/gaxios/-/gaxios-5.0.1.tgz#50fc76a2d04bc1700ed8c3ff1561e52255dfc6e0"
-  integrity sha512-keK47BGKHyyOVQxgcUaSaFvr3ehZYAlvhvpHXy0YB2itzZef+GqZR8TBsfVRWghdwlKrYsn+8L8i3eblF7Oviw==
+gaxios@^5.0.1:
+  version "5.0.2"
+  resolved "https://registry.yarnpkg.com/gaxios/-/gaxios-5.0.2.tgz#ca3a40e851c728d31d7001c2357062d46bf966d1"
+  integrity sha512-TjtV2AJOZoMQqRYoy5eM8cCQogYwazWNYLQ72QB0kwa6vHHruYkGmhhyrlzbmgNHK1dNnuP2WSH81urfzyN2Og==
   dependencies:
     extend "^3.0.2"
     https-proxy-agent "^5.0.0"
@@ -3548,10 +3535,10 @@ globby@^11.1.0:
     merge2 "^1.4.1"
     slash "^3.0.0"
 
-google-auth-library@8.0.1:
-  version "8.0.1"
-  resolved "https://registry.yarnpkg.com/google-auth-library/-/google-auth-library-8.0.1.tgz#8983eeeb8ecc65ff01cd04cf4daf2b15bbb31a60"
-  integrity sha512-pNzO7U5rG1GIbWUcI4VYUhd4qcEuR6Pmn9yFtB2OiVWEYRmVbbulc5CYx/oq4FCQu617XJeDFpU0pe3rlUCsUw==
+google-auth-library@8.7.0:
+  version "8.7.0"
+  resolved "https://registry.yarnpkg.com/google-auth-library/-/google-auth-library-8.7.0.tgz#e36e255baba4755ce38dded4c50f896cf8515e51"
+  integrity sha512-1M0NG5VDIvJZEnstHbRdckLZESoJwguinwN8Dhae0j2ZKIQFIV63zxm6Fo6nM4xkgqUr2bbMtV5Dgo+Hy6oo0Q==
   dependencies:
     arrify "^2.0.0"
     base64-js "^1.3.0"
@@ -3559,14 +3546,14 @@ google-auth-library@8.0.1:
     fast-text-encoding "^1.0.0"
     gaxios "^5.0.0"
     gcp-metadata "^5.0.0"
-    gtoken "^5.3.2"
+    gtoken "^6.1.0"
     jws "^4.0.0"
     lru-cache "^6.0.0"
 
-google-p12-pem@^3.1.3:
-  version "3.1.4"
-  resolved "https://registry.yarnpkg.com/google-p12-pem/-/google-p12-pem-3.1.4.tgz#123f7b40da204de4ed1fbf2fd5be12c047fc8b3b"
-  integrity sha512-HHuHmkLgwjdmVRngf5+gSmpkyaRI6QmOg77J8tkNBHhNEI62sGHyw4/+UkgyZEI7h84NbWprXDJ+sa3xOYFvTg==
+google-p12-pem@^4.0.0:
+  version "4.0.1"
+  resolved "https://registry.yarnpkg.com/google-p12-pem/-/google-p12-pem-4.0.1.tgz#82841798253c65b7dc2a4e5fe9df141db670172a"
+  integrity sha512-WPkN4yGtz05WZ5EhtlxNDWPhC4JIic6G8ePitwUWy4l+XPVYec+a0j0Ts47PDtW59y3RwAhUd9/h9ZZ63px6RQ==
   dependencies:
     node-forge "^1.3.1"
 
@@ -3575,13 +3562,13 @@ graceful-fs@^4.1.2, graceful-fs@^4.1.6, graceful-fs@^4.2.0, graceful-fs@^4.2.4, 
   resolved "https://registry.yarnpkg.com/graceful-fs/-/graceful-fs-4.2.10.tgz#147d3a006da4ca3ce14728c7aefc287c367d7a6c"
   integrity sha512-9ByhssR2fPVsNZj478qUUbKfmL0+t5BDVyjShtyZZLiK7ZDAArFFfopyOTj0M05wE2tJPisA4iTnnXl2YoPvOA==
 
-gtoken@^5.3.2:
-  version "5.3.2"
-  resolved "https://registry.yarnpkg.com/gtoken/-/gtoken-5.3.2.tgz#deb7dc876abe002178e0515e383382ea9446d58f"
-  integrity sha512-gkvEKREW7dXWF8NV8pVrKfW7WqReAmjjkMBh6lNCCGOM4ucS0r0YyXXl0r/9Yj8wcW/32ISkfc8h5mPTDbtifQ==
+gtoken@^6.1.0:
+  version "6.1.2"
+  resolved "https://registry.yarnpkg.com/gtoken/-/gtoken-6.1.2.tgz#aeb7bdb019ff4c3ba3ac100bbe7b6e74dce0e8bc"
+  integrity sha512-4ccGpzz7YAr7lxrT2neugmXQ3hP9ho2gcaityLVkiUecAiwiy60Ii8gRbZeOsXV19fYaRjgBSshs8kXw+NKCPQ==
   dependencies:
-    gaxios "^4.0.0"
-    google-p12-pem "^3.1.3"
+    gaxios "^5.0.1"
+    google-p12-pem "^4.0.0"
     jws "^4.0.0"
 
 handlebars@4.7.7, handlebars@^4.7.6:
